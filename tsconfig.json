@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "es6",
+    "sourceMap": true,
+    "sourceRoot": "/",
+    "inlineSources": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "paths": {
+      "@modules/*": ["./src/modules/*"],
+      "@globals/*": ["./src/globals/*"],
+      "@entities/*": ["./src/entities/*"],
+      "@libs/*": ["./src/libs/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

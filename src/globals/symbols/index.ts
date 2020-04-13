@@ -1,0 +1,1 @@
+export const TELEGRAM_BOT_KEY = 'TELEGRAM_BOT_KEY';
